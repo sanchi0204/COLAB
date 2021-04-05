@@ -3,26 +3,82 @@
 Online shopping has become the new norm but retailers and brands are finding it difficult to engage customers.
 
 # Description of the Problem:
-Need for a platform to mix virtual experience with the offline experience to engage users and improve monotonous online shopping experience.
-A mutually rewarding buying and selling experience for both retailers and customers.
+
 ![image](https://user-images.githubusercontent.com/47916019/113627182-c335df00-9680-11eb-97c4-b73fd64b38ff.png)
+
 # Introduction
+
 # Quick Links
+
+# Proposed Solution
+
+
+The idea is to make an android application where multiple users can shop together and get shared experience just like traditional shopping.<br>
+Customers miss shopping with their friends and family.<br>
+Seek their second opinion on product selection and looks.<br>
+Endless products add to confusion<br>
+We aim to replicate the instore experience with family and friends, in comfort of home<br>
+Customized Product Catalogue:<br>
+
+
+Personalized Customer product feed based on:<br>
+	Past shop and search history<br>
+	Recommendations and Suggestions from family/friends<br>
+	Items from family/friends Wishlist or cart<br>
+
+Every product in feed offers a 3D view to know about it in – and – out.<br>
+Virtual try-on of clothes/ accessories to pick the best<br>
+Receive suggestions of complementing products to add to the look; similar as in a physical store with a virtual salesperson<br>
+Share virtual outfit look with family/friends to seek advice<br>
+
 # About Application
-# PROPOSED SOLUTION
 
-The idea is to make an android application where multiple users can shop together and get shared experience just like traditional shopping.
-Customers miss shopping with their friends and family.
-Seek their second opinion on product selection and looks.
-Endless products add to confusion
-We aim to replicate the instore experience with family and friends, in comfort of home
-Customized Product Catalogue:
-  Personalized Customer product feed based on:
-	Past shop and search history
-	Recommendations and Suggestions from family/friends
-	Items from family/friends Wishlist or cart
 
-Every product in feed offers a 3D view to know about it in – and – out.
-Virtual try-on of clothes/ accessories to pick the best
-Receive suggestions of complementing products to add to the look; similar as in a physical store with a virtual salesperson
-Share virtual outfit look with family/friends to seek advice
+* Interactive Concept
+* AR and AI Based Solution
+* User Friendly
+* Real Time Processing Solution
+
+
+
+# Tech Stack Used
+
+A native mobile application using Android SDK and Java<br>
+
+The AR features are developed using Unity Engine and C# programming.<br> 
+
+Google ARCore’s SDK for Unity allows the needed tracing and detection.<br>
+
+Recommendation system using sklearn based on content based and collaborative filtering<br>
+
+API deployed on Heroku cloud is used for getting Responses<br>
+	
+IBM Watson chatbot will be used to make virtual salesperson chatbot.<br>
+
+
+# Impact
+
+* Customized product catalogue provides adaptation to customer’s buying behaviour and market trends to maintain Freshness & wow factor in shopping experience.<br>
+
+* Virtual trial rooms and 3D view of products provide visually stimulating and personalized shopping journey<br>
+
+* Customers can interact and engage with people in their trusted circle for product selection and purchase.<br>
+
+* Online shopping is no more a lonely affair<br>
+
+* Aids a right and quick product selection without going through overabundance of product listings.<br>
+
+* Increased customer satisfaction and engagement<br>
+
+* Near to real experience<br>
+
+* Enables online retailers to replicate the thrills of an in-store , fulfilling experience<br>
+
+
+
+	
+
+
+
+
+
