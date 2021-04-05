@@ -43,35 +43,23 @@ Share virtual outfit look with family/friends to seek advice<br>
 
 # Tech Stack Used
 
-A native mobile application using Android SDK and Java<br>
-
-The AR features are developed using Unity Engine and C# programming.<br> 
-
-Google ARCore’s SDK for Unity allows the needed tracing and detection.<br>
-
-Recommendation system using sklearn based on content based and collaborative filtering<br>
-
-API deployed on Heroku cloud is used for getting Responses<br>
-	
-IBM Watson chatbot will be used to make virtual salesperson chatbot.<br>
+* A native mobile application using Android SDK and Java<br>
+* The AR features are developed using Unity Engine and C# programming.<br> 
+* Google ARCore’s SDK for Unity allows the needed tracing and detection.<br>
+* Recommendation system using sklearn based on content based and collaborative filtering<br>
+* API deployed on Heroku cloud is used for getting Responses<br>
+* IBM Watson chatbot will be used to make virtual salesperson chatbot.<br>
 
 
 # Impact
 
 * Customized product catalogue provides adaptation to customer’s buying behaviour and market trends to maintain Freshness & wow factor in shopping experience.<br>
-
 * Virtual trial rooms and 3D view of products provide visually stimulating and personalized shopping journey<br>
-
 * Customers can interact and engage with people in their trusted circle for product selection and purchase.<br>
-
 * Online shopping is no more a lonely affair<br>
-
 * Aids a right and quick product selection without going through overabundance of product listings.<br>
-
 * Increased customer satisfaction and engagement<br>
-
 * Near to real experience<br>
-
 * Enables online retailers to replicate the thrills of an in-store , fulfilling experience<br>
 
 
