@@ -13,18 +13,18 @@ Online shopping has become the new norm but retailers and brands are finding it 
 # Proposed Solution
 
 
-The idea is to make an android application where multiple users can shop together and get shared experience just like traditional shopping.<br>
-Customers miss shopping with their friends and family.<br>
-Seek their second opinion on product selection and looks.<br>
-Endless products add to confusion<br>
-We aim to replicate the instore experience with family and friends, in comfort of home<br>
+The idea is to make an android application where multiple users can shop together and get shared experience just like traditional shopping.
+
+
+We aim to replicate the instore experience with family and friends, in comfort of home
 Customized Product Catalogue:<br>
 
 
 Personalized Customer product feed based on:<br>
-	Past shop and search history<br>
-	Recommendations and Suggestions from family/friends<br>
-	Items from family/friends Wishlist or cart<br>
+*	Past shop and search history<br>
+*	Recommendations and Suggestions from family/friends<br>
+*	Items from family/friends Wishlist or cart<br>
+
 
 Every product in feed offers a 3D view to know about it in – and – out.<br>
 Virtual try-on of clothes/ accessories to pick the best<br>
