@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Views.Chatbot">
+
+    <ImageView
+        android:id="@+id/prod_img"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/sample_ar"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/prod_brand"
+        android:textAllCaps="true"
+        android:fontFamily="@font/roboto"
+        tools:text="@string/what_on_mind"
+        android:textColor="@color/black"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btn_ar"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/prime"
+        android:text="@string/try_virtual"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textAllCaps="true"
+        android:fontFamily="@font/roboto"/>
+
+    <LinearLayout
+        android:id="@+id/btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btn_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/prime"
+            android:text="@string/add_cart"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginEnd="5dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textAllCaps="true"
+            android:fontFamily="@font/roboto"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_weight="1"
+            android:id="@+id/btn_wish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/prime"
+            android:text="@string/add_to_wish"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginStart="5dp"
+            android:textAllCaps="true"
+            android:fontFamily="@font/roboto"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:fontFamily="@font/roboto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prod_rating_head"
+        android:text="@string/rating"
+        android:textColor="@color/teal_200"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="20sp"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prod_rating"
+        tools:text="@string/what_on_mind"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+
+</LinearLayout>
