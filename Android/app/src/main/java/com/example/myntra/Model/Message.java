@@ -21,6 +21,7 @@ public class Message implements Serializable {
         this.type = Type.IMAGE;
     }
 
+
     public String getId() {
         return id;
     }
