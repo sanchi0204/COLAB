@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Views.Login">
+    tools:context=".Views.Register">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,12 +20,35 @@
             android:layout_gravity="center"/>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/username_layout"
+            android:id="@+id/name_layout"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="100dp"
+            android:layout_marginEnd="16dp"
+            android:hint="@string/first_name"
+            app:boxBackgroundColor="@color/design_default_color_on_primary"
+            app:boxBackgroundMode="filled"
+            app:boxCornerRadiusTopEnd="16dp"
+            app:boxCornerRadiusTopStart="16dp"
+            app:helperText="@string/required">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/name_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/username_layout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:hint="@string/user_name"
             app:boxBackgroundColor="@color/design_default_color_on_primary"
