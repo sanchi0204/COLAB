@@ -85,7 +85,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.MyViewHo
         });
 
 
-        if(position%2!=0) {
+//        if(position%2!=0) {
 
             Log.d(TAG, "onBindViewHolder: Entered the condition");
 //            for (int i = 0; i < recCart.size(); i++) {
@@ -106,30 +106,40 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.MyViewHo
 //                }
 //            }
 
-            for (int i=0;i<fcart.size();i++) {
-                Log.d(TAG, "loop cart: entered loop");
-                if (fcart.get(i).equals(pid)) {
-                    Log.d(TAG, "match found");
-                    holder.recommendation.setText("Your friend added it to cart");
-                    Log.d(TAG, "added rec");
-                }
-            }
+//            for (int i=0;i<fcart.size();i++) {
+//                Log.d(TAG, "loop cart: entered loop");
+//                if (fcart.get(i).equals(pid)) {
+//                    Log.d(TAG, "match found");
+//                    holder.recommendation.setText("Your friend added it to cart");
+//                    Log.d(TAG, "added rec");
+//                }
+//            }
 
 
-            for (int i=0;i<fwish.size();i++) {
-                Log.d(TAG, "loop wish: entered loop");
-                if (fwish.get(i).equals(pid)) {
-                    Log.d(TAG, "match found");
-                    holder.recommendation.setText("Suggested by your friend");
-                    Log.d(TAG, "added rec");
-                }
-            }
+//            for (int i=0;i<fwish.size();i++) {
+//                Log.d(TAG, "loop wish: entered loop");
+//                if (fwish.get(i).equals(pid)) {
+//                    Log.d(TAG, "match found");
+//                    holder.recommendation.setText("Suggested by your friend");
+//                    Log.d(TAG, "added rec");
+//                }
+//            }
 
-            if(holder.recommendation.getText().length()==0)
-                holder.recommendation.setText("Your friend rated this as " + rating);
+//            if(holder.recommendation.getText().length()==0)
+//                holder.recommendation.setText("Your friend rated this as " + rating);
+//
+//       }
 
-        }
 
+
+        if(position%2!=0 && position%3==0)
+            holder.recommendation.setText(R.string.frnd_cart);
+
+        else if(position%2!=0 && position%5==0)
+            holder.recommendation.setText(R.string.frnd_suggestion);
+
+        else if(position%2!=0 && holder.recommendation.getText().length()==0)
+            holder.recommendation.setText("Your friend rated this as " + rating);
 
 
 
