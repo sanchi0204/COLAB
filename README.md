@@ -1,6 +1,6 @@
 # Colab by TechDivas
 # Problem Statement:
-Online shopping has become the new norm but retailers and brands are finding it difficult to engage customers.
+One of the things that differs from online vs offline shopping experience is “shopping together”. This void of company in online shopping can make it boring over a period of time. Ever wondered how collaborative shopping can improve shopping experience? Imagine you get to seek your friend’s style tips/suggestions on the go.
 
 # Description of the Problem:
 
