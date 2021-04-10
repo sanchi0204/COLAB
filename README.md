@@ -45,6 +45,17 @@ Share virtual outfit look with family/friends to seek advice<br>
 * User data regarding wishlist, cart and suggestions are stored in Firebase Firestore Database.
 * IBM Watson chatbot is used to make virtual salesperson chatbot.<br>
 
+# Implementation of Machine Learning Model
+
+* We are using amazon review dataset containing two files:<br>
+      ratings_Clothing_Shoes_and_Jewelry.csv<br>
+      metadata_ratings_Clothing_Shoes_and_Jewelry.csv<br>
+      <link>https://jmcauley.ucsd.edu/data/amazon/ <br>    
+* We merge the two dataset and  perform data visualization and data cleaning<br>
+* Then we generate two machine learning models based on popularity based filtering and collaborative filtering<br>
+* By comparing root mean square error of different algorithm we comes to a conclusion of using KNN model for prediction<br>
+* save it as a pickle file and deploy it on heroku!
+
 # Screenshots
 
 <table>
@@ -85,18 +96,6 @@ Share virtual outfit look with family/friends to seek advice<br>
   </tr>
 </table>
 
-# Implementation of Machine Learning Model
-
-* We are using amazon review dataset containing two files:<br>
-      ratings_Clothing_Shoes_and_Jewelry.csv<br>
-      metadata_ratings_Clothing_Shoes_and_Jewelry.csv<br>
-      <link>https://jmcauley.ucsd.edu/data/amazon/ <br>    
-* We merge the two dataset and  perform data visualization and data cleaning<br>
-* Then we generate two machine learning models based on popularity based filtering and collaborative filtering<br>
-* By comparing root mean square error of different algorithm we comes to a conclusion of using KNN model for prediction<br>
-* save it as a pickle file and deploy it on heroku!
-
-
 # Impact
 
 * Customized product catalogue provides adaptation to customer’s buying behaviour and market trends to maintain Freshness & wow factor in shopping experience.<br>
@@ -107,6 +106,16 @@ Share virtual outfit look with family/friends to seek advice<br>
 * Increased customer satisfaction and engagement<br>
 * Near to real experience<br>
 * Enables online retailers to replicate the thrills of an in-store , fulfilling experience<br>
+
+#Backend Working
+
+*	Flow diagram
+ <tr><td><img src="https://github.com/sanchi0204/Colab---TechDivas/blob/main/Screenshots/flow.jpg" alt="3" width = 600px height = 500px></td></tr>
+ 
+ *	Fireabase Databse for Products
+ *	Fireabase Firestore for User Information
+ *	Recommendation API Response
+ *	Firebase Authentication for Users
 
 # Contributors
 
