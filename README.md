@@ -107,15 +107,15 @@ Share virtual outfit look with family/friends to seek advice<br>
 * Near to real experience<br>
 * Enables online retailers to replicate the thrills of an in-store , fulfilling experience<br>
 
-#Backend Working
+# Backend Working
 
 *	Flow diagram
  <tr><td><img src="https://github.com/sanchi0204/Colab---TechDivas/blob/main/Screenshots/flow.jpg" alt="3" width = 600px height = 500px></td></tr>
  
- *	Fireabase Databse for Products
- *	Fireabase Firestore for User Information
- *	Recommendation API Response
- *	Firebase Authentication for Users
+ *	[Fireabase Databse for Products](https://github.com/sanchi0204/Colab---TechDivas/blob/main/Screenshots/firebase%20db.PNG)
+ *	[Fireabase Firestore for User Information](https://github.com/sanchi0204/Colab---TechDivas/blob/main/Screenshots/firestore%20snap.PNG)
+ *	[Recommendation API Response](https://github.com/sanchi0204/Colab---TechDivas/blob/main/Screenshots/api%20response.jpeg)
+ *	[Firebase Authentication for Users](https://github.com/sanchi0204/Colab---TechDivas/blob/main/Screenshots/firebase%20authentication.PNG)
 
 # Contributors
 
