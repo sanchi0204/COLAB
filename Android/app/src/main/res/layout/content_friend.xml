@@ -37,4 +37,13 @@
         android:text="SHARE"
         android:id="@+id/btn_share"/>
 
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/anim"
+        android:visibility="gone"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/done_gif"
+        android:layout_gravity="center_vertical"
+        />
+
 </LinearLayout>
