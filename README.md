@@ -1,4 +1,8 @@
 # Colab by TechDivas
+
+# Theme:
+Collaborative Shopping Experience
+
 # Problem Statement:
 One of the things that differs from online vs offline shopping experience is “shopping together”. This void of company in online shopping can make it boring over a period of time. Ever wondered how collaborative shopping can improve shopping experience? Imagine you get to seek your friend’s style tips/suggestions on the go.
 
