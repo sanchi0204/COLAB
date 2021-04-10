@@ -35,7 +35,7 @@ Share virtual outfit look with family/friends to seek advice<br>
 
 * A native mobile application using Android SDK and Java<br>
 * The AR features are developed using Unity Engine and C# programming.<br> 
-* Google ARCore’s SDK for Unity allows the needed tracing and detection.<br>
+* Google's AR core SDK for unity provides face detection. It is included as a package inside unity. The recorder/ capture is controlled by C# script. For the 3D view of the products is obtained by making the camera face a plane where the floor is recommended. When the plane is detected, the user can see the 3D version of the product selected. The user can have a 360° view of the product.<br>
 * Recommendation system using sklearn based on content based and collaborative filtering<br>
 * API deployed on Heroku cloud is used for getting Responses<br>
 * These responses are fetched by the Android app using Volley.
