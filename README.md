@@ -1,12 +1,16 @@
-# Myntra_Hackerramp_TechDivas
+# Colab by TechDivas
+
+# Theme:
+Collaborative Shopping Experience
+
 # Problem Statement:
-Online shopping has become the new norm but retailers and brands are finding it difficult to engage customers.
+One of the things that differs from online vs offline shopping experience is “shopping together”. This void of company in online shopping can make it boring over a period of time. Ever wondered how collaborative shopping can improve shopping experience? Imagine you get to seek your friend’s style tips/suggestions on the go.
 
 # Description of the Problem:
 
-![image](https://user-images.githubusercontent.com/47916019/113627182-c335df00-9680-11eb-97c4-b73fd64b38ff.png)
+*	Need for a platform to mix virtual experience with the offline experience to engage users and improve monotonous online shopping experience.
 
-# Introduction
+*	A mutually rewarding buying and selling experience for both retailers and customers.
 
 # Quick Links
 
@@ -15,31 +19,17 @@ Online shopping has become the new norm but retailers and brands are finding it 
 
 The idea is to make an android application where multiple users can shop together and get shared experience just like traditional shopping.
 
-
 We aim to replicate the instore experience with family and friends, in comfort of home
 Customized Product Catalogue:<br>
-
-
 Personalized Customer product feed based on:<br>
 *	Past shop and search history<br>
 *	Recommendations and Suggestions from family/friends<br>
 *	Items from family/friends Wishlist or cart<br>
 
-
 Every product in feed offers a 3D view to know about it in – and – out.<br>
 Virtual try-on of clothes/ accessories to pick the best<br>
 Receive suggestions of complementing products to add to the look; similar as in a physical store with a virtual salesperson<br>
 Share virtual outfit look with family/friends to seek advice<br>
-
-# About Application
-
-
-* Interactive Concept
-* AR and AI Based Solution
-* User Friendly
-* Real Time Processing Solution
-
-
 
 # Tech Stack Used
 
@@ -48,7 +38,51 @@ Share virtual outfit look with family/friends to seek advice<br>
 * Google ARCore’s SDK for Unity allows the needed tracing and detection.<br>
 * Recommendation system using sklearn based on content based and collaborative filtering<br>
 * API deployed on Heroku cloud is used for getting Responses<br>
-* IBM Watson chatbot will be used to make virtual salesperson chatbot.<br>
+* These responses are fetched by the Android app using Volley.
+* Corresponsing details of each product are retrieved from the Firebase Database.
+* Users are registered on the app via Firebase Authentication.
+* User data regarding wishlist, cart and suggestions are stored in Firebase Firestore Database.
+* IBM Watson chatbot is used to make virtual salesperson chatbot.<br>
+
+# Screenshots
+
+<table>
+	<tr>
+    <td> <img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia6651674199595905088.png"  alt="1" width = 360px height = 640px ></td>
+	<td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia5897806593753510113.png" alt="2" width = 360px height = 640px></td>	
+    <td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia4334451049220496791.png" alt="2" width = 360px height = 640px></td>
+   </tr> 
+  <tr>
+    <td> <img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia2221552480820006616.png"  alt="1" width = 360px height = 640px ></td>
+	<td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia3964943662899712685.png" alt="2" width = 360px height = 640px></td>	
+    <td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia3806382942996388000.png" alt="2" width = 360px height = 640px></td>
+   </tr> 
+   <tr>
+      <td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia3549763234244386519.png" alt="3" width = 360px height = 640px></td>
+	<td><img src="https://github.com/sanchi0204/Colab---TechDivas/blob/main/Screenshots/WhatsApp%20Image%202021-04-10%20at%2021.12.34.jpeg" alt="3" width = 360px height = 640px></td>
+	<td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia7964814500322494698.png" align="right" alt="4" width = 360px height = 640px>
+  </td>
+  </tr>
+  
+  <tr>
+      <td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia6245132865850652994.png" alt="3" width = 360px height = 640px></td>
+	<td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia686552637052219349.png" alt="3" width = 360px height = 640px></td>
+<td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia7387612660504003055.png" align="right" alt="4" width = 360px height = 640px>
+  </td>
+  </tr>
+  <tr>
+      <td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia5845211807223843542.png" alt="3" width = 360px height = 640px></td>
+	<td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia6636600915729832206.png" alt="3" width = 360px height = 640px></td>
+	<td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia7911555231965264560.png" align="right" alt="4" width = 360px height = 640px>
+  </td>
+  </tr>
+   <tr>
+      <td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia2708697010745606050.png" alt="3" width = 360px height = 640px></td>
+	<td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia521660018970833680.png" alt="3" width = 360px height = 640px></td>
+	<td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia2881736521232471500.png" align="right" alt="4" width = 360px height = 640px>
+  </td>
+  </tr>
+</table>
 
 
 # Impact
@@ -62,11 +96,8 @@ Share virtual outfit look with family/friends to seek advice<br>
 * Near to real experience<br>
 * Enables online retailers to replicate the thrills of an in-store , fulfilling experience<br>
 
+# Contributors
 
-
-	
-
-
-
-
-
+* [Sanchi Rastogi](https://github.com/sanchi0204)
+* [Isha Mudgal](https://github.com/Ishamudgalll)
+* [Saumya Bathla](https://github.com/saumyabathla)

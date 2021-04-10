@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
-        android:src="@drawable/logo" />
+        android:src="@drawable/colab" />
 
     <com.google.android.material.button.MaterialButton
             android:id="@+id/sign_in_btn"
@@ -29,7 +29,7 @@
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold"
-            app:backgroundTint="@color/prime"
+            app:backgroundTint="@color/purple_500"
             app:cornerRadius="30dp"
         />
 
@@ -48,7 +48,7 @@
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:backgroundTint="@color/prime"
+        app:backgroundTint="@color/purple_500"
         app:cornerRadius="30dp" />
 
 </RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.Cart">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        android:layout_margin="16sp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/prod_img"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/sample_cloth"
+            android:layout_margin="16dp"/>
+
+        <TextView
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/prod_brand"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:text="@string/sample_brand"
+            android:textColor="@color/black"
+            android:layout_below="@+id/prod_img"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/prod_rating"
+            android:textAllCaps="true"
+            android:text="4.0"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/prime"
+            android:layout_below="@+id/prod_img"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_alignParentEnd="true"
+            android:textSize="18sp"/>
+
+    </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/chatbot_btn"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_chatbot"/>
+
+    <com.github.library.bubbleview.BubbleTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/how_help"
+        android:padding="10dp"
+        android:textColor="@color/grey"
+        app:arrowWidth="8dp"
+        app:angle="8dp"
+        app:arrowHeight="10dp"
+        app:arrowPosition="14dp"
+        app:arrowLocation="bottom"
+        app:arrowCenter="true"
+        app:bubbleColor="@color/teal_200"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="120dp"
+        />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
