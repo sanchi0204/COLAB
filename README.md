@@ -37,7 +37,6 @@ Share virtual outfit look with family/friends to seek advice<br>
 * Interactive Concept
 * AR and AI Based Solution
 * User Friendly
-* Real Time Processing Solution
 
 
 
