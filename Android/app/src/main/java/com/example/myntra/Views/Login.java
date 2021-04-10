@@ -10,7 +10,6 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.myntra.Model.Constants;
-import com.example.myntra.Model.PopulateRecommendation;
 import com.example.myntra.Model.User;
 import com.example.myntra.R;
 import com.google.android.material.button.MaterialButton;
@@ -18,8 +17,6 @@ import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
-
-import java.util.ArrayList;
 
 public class Login extends AppCompatActivity {
 
@@ -126,18 +123,18 @@ public class Login extends AppCompatActivity {
                                     //cartList.add(item);
                                     Constants.friendCart.add(item);
                                     Log.d(TAG, "Added item: " + item);
-                                    Log.d(TAG, "list status:" + Constants.friendCart);
+                                   // Log.d(TAG, "list status:" + Constants.friendCart);
 
                                 }
 
                                 for (String item : userDet.getWish()) {
-                                  //  cartList.add(item);
+                                   // cartList.add(item);
                                     Constants.friendWish.add(item);
                                     Log.d(TAG, "Added item: " + item);
-                                    Log.d(TAG, "list status:" + Constants.friendWish);
+                                   // Log.d(TAG, "list status:" + Constants.friendWish);
                                 }
 
-
+//
 //                                PopulateRecommendation populateRecommendationCart = new PopulateRecommendation(userDet.getName(), cartList);
 //                                Log.d(TAG, "poprecCart: Added all cart items");
 //                                Log.d(TAG, "cartrec status"+ populateRecommendationCart);
