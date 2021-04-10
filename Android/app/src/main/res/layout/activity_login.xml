@@ -16,7 +16,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/logo"
+            android:src="@drawable/colab"
             android:layout_gravity="center"/>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -102,7 +102,7 @@
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold"
-            app:backgroundTint="@color/prime"
+            app:backgroundTint="@color/purple_500"
             app:cornerRadius="30dp" />
 
     </LinearLayout>
