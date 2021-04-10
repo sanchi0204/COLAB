@@ -21,5 +21,7 @@
     <string name="save">Save</string>
     <string name="friends">Friends</string>
     <string name="sample_brand">Ever Stylish</string>
+    <string name="title">Title</string>
+    <string name="view_3d">View in 3D</string>
 
 </resources>
