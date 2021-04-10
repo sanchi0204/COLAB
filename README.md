@@ -14,6 +14,14 @@ One of the things that differs from online vs offline shopping experience is “
 
 # Quick Links
 
+*	[Proposed Solution]()
+*	[Tech Stack Used]()
+*	[Implementation of Machine learning model]()
+*	[Screenshots]()
+*	[Impact]()
+*	[Backend Working]()
+*	[Contributors]()
+
 # Proposed Solution
 
 
@@ -110,7 +118,7 @@ Share virtual outfit look with family/friends to seek advice<br>
 # Backend Working
 
 *	Flow diagram
- <tr><td><img src="https://github.com/sanchi0204/Colab---TechDivas/blob/main/Screenshots/flow.jpg" alt="3" width = 800px height = 500px></td></tr>
+ <tr><td><img src="https://github.com/sanchi0204/Colab---TechDivas/blob/main/Screenshots/flow.jpg" alt="3" width = 1500px height = 500px></td></tr>
  
  *	[Fireabase Database for Products](https://github.com/sanchi0204/Colab---TechDivas/blob/main/Screenshots/firebase%20db.PNG)
  *	[Fireabase Firestore for User Information](https://github.com/sanchi0204/Colab---TechDivas/blob/main/Screenshots/firestore%20snap.PNG)
