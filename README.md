@@ -1,4 +1,4 @@
-# Myntra_Hackerramp_TechDivas
+# Colab by TechDivas
 # Problem Statement:
 Online shopping has become the new norm but retailers and brands are finding it difficult to engage customers.
 
