@@ -90,10 +90,10 @@ Share virtual outfit look with family/friends to seek advice<br>
 * We are using amazon review dataset containing two files:<br>
       ratings_Clothing_Shoes_and_Jewelry.csv<br>
       metadata_ratings_Clothing_Shoes_and_Jewelry.csv<br>
- <link>https://jmcauley.ucsd.edu/data/amazon/     
-* We merge the two dataset and  perform data visualization and data cleaning
-* Then we generate two machine learning models based on popularity based filtering and collaborative filtering
-* By comparing root mean square error of different algorithm we comes to a conclusion of using KNN model for prediction 
+ <link>https://jmcauley.ucsd.edu/data/amazon/ <br>    
+* We merge the two dataset and  perform data visualization and data cleaning<br>
+* Then we generate two machine learning models based on popularity based filtering and collaborative filtering<br>
+* By comparing root mean square error of different algorithm we comes to a conclusion of using KNN model for prediction<br>
 * save it as a pickle file and deploy it on heroku!
 
 
