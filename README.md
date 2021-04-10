@@ -60,7 +60,7 @@ Share virtual outfit look with family/friends to seek advice<br>
    </tr> 
    <tr>
       <td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia3549763234244386519.png" alt="3" width = 360px height = 640px></td>
-	<td><img src="https://github.com/sanchi0204/Colab---TechDivas/blob/main/Screenshots/WhatsApp%20Image%202021-04-10%20at%2021.12.34.jpeg" alt="3" width = 360px height = 640px></td>
+	<td><img src="https://github.com/sanchi0204/Colab---TechDivas/blob/main/Screenshots/tia6712605497415806090%20(1).png" alt="3" width = 360px height = 640px></td>
 	<td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia7964814500322494698.png" align="right" alt="4" width = 360px height = 640px>
   </td>
   </tr>
