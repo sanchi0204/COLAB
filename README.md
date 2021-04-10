@@ -35,7 +35,8 @@ Share virtual outfit look with family/friends to seek advice<br>
 
 * A native mobile application using Android SDK and Java<br>
 * The AR features are developed using Unity Engine and C# programming.<br> 
-* Google's AR core SDK for unity provides face detection. It is included as a package inside unity. The recorder/ capture is controlled by C# script. For the 3D view of the products is obtained by making the camera face a plane where the floor is recommended. When the plane is detected, the user can see the 3D version of the product selected. The user can have a 360° view of the product.<br>
+* Google's AR core SDK for unity provides face detection. It is included as a package inside unity. The recorder/ capture is controlled by C# script. <br>
+* For the 3D view of the products is obtained by making the camera face a plane where the floor is recommended. When the plane is detected, the user can see the 3D version of the product selected. The user can have a 360° view of the product.<br>
 * Recommendation system using sklearn based on content based and collaborative filtering<br>
 * API deployed on Heroku cloud is used for getting Responses<br>
 * These responses are fetched by the Android app using Volley.
@@ -83,6 +84,17 @@ Share virtual outfit look with family/friends to seek advice<br>
   </td>
   </tr>
 </table>
+
+# Implementation of Machine Learning Model
+
+* We are using amazon review dataset containing two files:<br>
+      ratings_Clothing_Shoes_and_Jewelry.csv<br>
+      metadata_ratings_Clothing_Shoes_and_Jewelry.csv<br>
+ <link>https://jmcauley.ucsd.edu/data/amazon/     
+* We merge the two dataset and  perform data visualization and data cleaning
+* Then we generate two machine learning models based on popularity based filtering and collaborative filtering
+* By comparing root mean square error of different algorithm we comes to a conclusion of using KNN model for prediction 
+* save it as a pickle file and deploy it on heroku!
 
 
 # Impact
