@@ -110,9 +110,9 @@ Share virtual outfit look with family/friends to seek advice<br>
 # Backend Working
 
 *	Flow diagram
- <tr><td><img src="https://github.com/sanchi0204/Colab---TechDivas/blob/main/Screenshots/flow.jpg" alt="3" width = 600px height = 500px></td></tr>
+ <tr><td><img src="https://github.com/sanchi0204/Colab---TechDivas/blob/main/Screenshots/flow.jpg" alt="3" width = 800px height = 500px></td></tr>
  
- *	[Fireabase Databse for Products](https://github.com/sanchi0204/Colab---TechDivas/blob/main/Screenshots/firebase%20db.PNG)
+ *	[Fireabase Database for Products](https://github.com/sanchi0204/Colab---TechDivas/blob/main/Screenshots/firebase%20db.PNG)
  *	[Fireabase Firestore for User Information](https://github.com/sanchi0204/Colab---TechDivas/blob/main/Screenshots/firestore%20snap.PNG)
  *	[Recommendation API Response](https://github.com/sanchi0204/Colab---TechDivas/blob/main/Screenshots/api%20response.jpeg)
  *	[Firebase Authentication for Users](https://github.com/sanchi0204/Colab---TechDivas/blob/main/Screenshots/firebase%20authentication.PNG)
