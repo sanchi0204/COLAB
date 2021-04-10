@@ -17,7 +17,6 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.myntra.Model.Constants;
-import com.example.myntra.Model.PopulateRecommendation;
 import com.example.myntra.Model.ProductType;
 import com.example.myntra.R;
 import com.example.myntra.Views.AddToQueueDialog;
@@ -29,10 +28,9 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.MyViewHo
 
     ArrayList<ProductType> productItem;
     private final Context context;
-//    ArrayList<PopulateRecommendation> recCart;
-//    ArrayList<PopulateRecommendation> recWish;
-    ArrayList<String> fcart;
-    ArrayList<String> fwish;
+   //ArrayList<PopulateRecommendation> recCart; ArrayList<PopulateRecommendation> recWish;
+   ArrayList<String> fcart;
+   ArrayList<String> fwish;
     private static final String TAG = "ProductFeedAdapter";
 
     public ProductAdapter(ArrayList<ProductType> productItem, Context context, ArrayList<String> fcart, ArrayList<String> fwish) {
@@ -41,6 +39,14 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.MyViewHo
         this.fcart = fcart;
         this.fwish = fwish;
     }
+
+//
+//    public ProductAdapter(ArrayList<ProductType> productItem, Context context, ArrayList<PopulateRecommendation> recCart, ArrayList<PopulateRecommendation> recWish) {
+//        this.productItem = productItem;
+//        this.context = context;
+//        this.recCart = recCart;
+//        this.recWish = recWish;
+//    }
 
     @NonNull
     @Override
@@ -55,13 +61,14 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.MyViewHo
     public void onBindViewHolder(@NonNull ProductAdapter.MyViewHolder holder, final int position) {
 
 
-        String rating,brand,pid;
+        String rating,brand,pid,title;
+        title = productItem.get(position).getTitle();
         rating = String.valueOf(productItem.get(position).getRating());
         pid = productItem.get(position).getProductId();
 
         Log.d(TAG, "pid:"+ pid);
         holder.wishlist.setOnCheckedChangeListener((compoundButton, b) -> {
-            if (holder.wishlist.isChecked() && position%2==0)
+            if (holder.wishlist.isChecked() && position%2!=0)
             {
                 Constants.WishList.add(productItem.get(position).getProductId());
                 holder.recommendation.setText("As you wished for it");
@@ -69,36 +76,36 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.MyViewHo
         });
 
         holder.cart.setOnCheckedChangeListener((compoundButton, b) -> {
-            if (holder.cart.isChecked() && position%2==0)
+            if (holder.cart.isChecked() && position%2!=0)
             {
-                Constants.CartList.add(productItem.get(position).getProductId());
+               Constants.CartList.add(productItem.get(position).getProductId());
                 holder.recommendation.setText("Suits your cart history");
             }
         });
 
         holder.like.setOnCheckedChangeListener((compoundButton, b) -> {
-            if (holder.like.isChecked() && position%2==0)
+            if (holder.like.isChecked() && position%2!=0)
             {
                 // Constants.WishList.add(productItem.get(position).getProductId());
                 holder.recommendation.setText("Trending");
             }
         });
 
+//
+      if(position%2==0) {
 
-//        if(position%2!=0) {
-
-            Log.d(TAG, "onBindViewHolder: Entered the condition");
+//            Log.d(TAG, "onBindViewHolder: Entered the condition");
 //            for (int i = 0; i < recCart.size(); i++) {
 //                Log.d(TAG, "cartlistitem: "+recCart.get(i));
 //                for (int j = 0; j < recCart.get(i).getPid().size(); j++) {
 //                    Log.d(TAG, "cartlist item id: "+recCart.get(i).getPid());
-//                    if (recCart.get(i).getPid().equals(pid)) {
+//                    if (String.valueOf(recCart.get(i).getPid()).equals(pid)) {
 //                        holder.recommendation.setText(recCart.get(i).getName() + "added it to cart");
 //                        Log.d(TAG, "match condn: item matched"+recCart.get(i).getName());
 //                    }
 //                }
 //            }
-
+//
 //            for (int i = 0; i < recWish.size(); i++) {
 //                for (int j = 0; j < recWish.get(i).getPid().size(); j++) {
 //                    if (String.valueOf(recWish.get(i).getPid()).equals(pid))
@@ -106,40 +113,40 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.MyViewHo
 //                }
 //            }
 
-//            for (int i=0;i<fcart.size();i++) {
-//                Log.d(TAG, "loop cart: entered loop");
-//                if (fcart.get(i).equals(pid)) {
-//                    Log.d(TAG, "match found");
-//                    holder.recommendation.setText("Your friend added it to cart");
-//                    Log.d(TAG, "added rec");
-//                }
-//            }
+            for (int i=0;i<fcart.size();i++) {
+                Log.d(TAG, "loop cart: entered loop");
+                if (fcart.get(i).equals(pid)) {
+                    Log.d(TAG, "match found");
+                    holder.recommendation.setText("Your friend added it to cart");
+                    Log.d(TAG, "added rec");
+                }
+            }
 
 
-//            for (int i=0;i<fwish.size();i++) {
-//                Log.d(TAG, "loop wish: entered loop");
-//                if (fwish.get(i).equals(pid)) {
-//                    Log.d(TAG, "match found");
-//                    holder.recommendation.setText("Suggested by your friend");
-//                    Log.d(TAG, "added rec");
-//                }
-//            }
+            for (int i=0;i<fwish.size();i++) {
+                Log.d(TAG, "loop wish: entered loop");
+                if (fwish.get(i).equals(pid)) {
+                    Log.d(TAG, "match found");
+                    holder.recommendation.setText("Suggested by your friend");
+                    Log.d(TAG, "added rec");
+                }
+            }
 
-//            if(holder.recommendation.getText().length()==0)
-//                holder.recommendation.setText("Your friend rated this as " + rating);
+            if(holder.recommendation.getText().length()==0)
+                holder.recommendation.setText("Your friend rated this as " + rating);
+
+       }
+
+
+
+//        if(position%2!=0 && position%3==0)
+//            holder.recommendation.setText(R.string.frnd_cart);
 //
-//       }
-
-
-
-        if(position%2!=0 && position%3==0)
-            holder.recommendation.setText(R.string.frnd_cart);
-
-        else if(position%2!=0 && position%5==0)
-            holder.recommendation.setText(R.string.frnd_suggestion);
-
-        else if(position%2!=0 && holder.recommendation.getText().length()==0)
-            holder.recommendation.setText("Your friend rated this as " + rating);
+//        else if(position%2!=0 && position%5==0)
+//            holder.recommendation.setText(R.string.frnd_suggestion);
+//
+//        else if(position%2!=0 && holder.recommendation.getText().length()==0)
+//            holder.recommendation.setText("Your friend rated this as " + rating);
 
 
 
@@ -150,6 +157,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.MyViewHo
             Intent intent=new Intent(context, ProdDesc.class);
             intent.putExtra("brand", brand);
             intent.putExtra("rating", rating);
+            intent.putExtra("title", title);
             context.startActivity(intent);
         });
 
