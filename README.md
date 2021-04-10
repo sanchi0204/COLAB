@@ -14,13 +14,13 @@ One of the things that differs from online vs offline shopping experience is “
 
 # Quick Links
 
-*	[Proposed Solution]()
-*	[Tech Stack Used]()
-*	[Implementation of Machine learning model]()
-*	[Screenshots]()
-*	[Impact]()
-*	[Backend Working]()
-*	[Contributors]()
+*	[Proposed Solution](https://github.com/sanchi0204/Colab---TechDivas#proposed-solution)
+*	[Tech Stack Used](https://github.com/sanchi0204/Colab---TechDivas#tech-stack-used)
+*	[Implementation of Machine learning model](https://github.com/sanchi0204/Colab---TechDivas#implementation-of-machine-learning-model)
+*	[Screenshots](https://github.com/sanchi0204/Colab---TechDivas#screenshots)
+*	[Impact](https://github.com/sanchi0204/Colab---TechDivas#impact)
+*	[Backend Working](https://github.com/sanchi0204/Colab---TechDivas#backend-working)
+*	[Contributors](https://github.com/sanchi0204/Colab---TechDivas#contributors)
 
 # Proposed Solution
 
