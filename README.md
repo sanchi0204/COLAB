@@ -4,7 +4,9 @@ One of the things that differs from online vs offline shopping experience is “
 
 # Description of the Problem:
 
-![image](https://user-images.githubusercontent.com/47916019/113627182-c335df00-9680-11eb-97c4-b73fd64b38ff.png)
+*	Need for a platform to mix virtual experience with the offline experience to engage users and improve monotonous online shopping experience.
+
+*	A mutually rewarding buying and selling experience for both retailers and customers.
 
 # Introduction
 
