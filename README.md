@@ -50,6 +50,46 @@ Share virtual outfit look with family/friends to seek advice<br>
 * API deployed on Heroku cloud is used for getting Responses<br>
 * IBM Watson chatbot will be used to make virtual salesperson chatbot.<br>
 
+# Screenshots
+
+<table>
+	<tr>
+    <td> <img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia6651674199595905088.png"  alt="1" width = 360px height = 640px ></td>
+	<td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia5897806593753510113.png" alt="2" width = 360px height = 640px></td>	
+    <td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia4334451049220496791.png" alt="2" width = 360px height = 640px></td>
+   </tr> 
+  <tr>
+    <td> <img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia2221552480820006616.png"  alt="1" width = 360px height = 640px ></td>
+	<td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia3964943662899712685.png" alt="2" width = 360px height = 640px></td>	
+    <td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia3806382942996388000.png" alt="2" width = 360px height = 640px></td>
+   </tr> 
+   <tr>
+      <td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia3549763234244386519.png" alt="3" width = 360px height = 640px></td>
+	<td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia5228443895308725169.png" alt="3" width = 360px height = 640px></td>
+	<td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia7964814500322494698.png" align="right" alt="4" width = 360px height = 640px>
+  </td>
+  </tr>
+  
+  <tr>
+      <td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia6245132865850652994.png" alt="3" width = 360px height = 640px></td>
+	<td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia686552637052219349.png" alt="3" width = 360px height = 640px></td>
+<td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia7387612660504003055.png" align="right" alt="4" width = 360px height = 640px>
+  </td>
+  </tr>
+  <tr>
+      <td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia5845211807223843542.png" alt="3" width = 360px height = 640px></td>
+	<td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia6636600915729832206.png" alt="3" width = 360px height = 640px></td>
+	<td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia7911555231965264560.png" align="right" alt="4" width = 360px height = 640px>
+  </td>
+  </tr>
+   <tr>
+      <td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia2708697010745606050.png" alt="3" width = 360px height = 640px></td>
+	<td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia521660018970833680.png" alt="3" width = 360px height = 640px></td>
+	<td><img src="https://github.com/sanchi0204/Myntra_Hackerramp_TechDivas/blob/main/Screenshots/tia2881736521232471500.png" align="right" alt="4" width = 360px height = 640px>
+  </td>
+  </tr>
+</table>
+
 
 # Impact
 
