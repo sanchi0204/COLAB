@@ -40,6 +40,7 @@ Share virtual outfit look with family/friends to seek advice<br>
 * API deployed on Heroku cloud is used for getting Responses<br>
 * These responses are fetched by the Android app using Volley.
 * Corresponsing details of each product are retrieved from the Firebase Database.
+* Users are registered on the app via Firebase Authentication.
 * User data regarding wishlist, cart and suggestions are stored in Firebase Firestore Database.
 * IBM Watson chatbot is used to make virtual salesperson chatbot.<br>
 
