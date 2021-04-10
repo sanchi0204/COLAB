@@ -12,8 +12,6 @@ One of the things that differs from online vs offline shopping experience is “
 
 *	A mutually rewarding buying and selling experience for both retailers and customers.
 
-# Introduction
-
 # Quick Links
 
 # Proposed Solution
@@ -21,30 +19,17 @@ One of the things that differs from online vs offline shopping experience is “
 
 The idea is to make an android application where multiple users can shop together and get shared experience just like traditional shopping.
 
-
 We aim to replicate the instore experience with family and friends, in comfort of home
 Customized Product Catalogue:<br>
-
-
 Personalized Customer product feed based on:<br>
 *	Past shop and search history<br>
 *	Recommendations and Suggestions from family/friends<br>
 *	Items from family/friends Wishlist or cart<br>
 
-
 Every product in feed offers a 3D view to know about it in – and – out.<br>
 Virtual try-on of clothes/ accessories to pick the best<br>
 Receive suggestions of complementing products to add to the look; similar as in a physical store with a virtual salesperson<br>
 Share virtual outfit look with family/friends to seek advice<br>
-
-# About Application
-
-
-* Interactive Concept
-* AR and AI Based Solution
-* User Friendly
-
-
 
 # Tech Stack Used
 
@@ -53,7 +38,10 @@ Share virtual outfit look with family/friends to seek advice<br>
 * Google ARCore’s SDK for Unity allows the needed tracing and detection.<br>
 * Recommendation system using sklearn based on content based and collaborative filtering<br>
 * API deployed on Heroku cloud is used for getting Responses<br>
-* IBM Watson chatbot will be used to make virtual salesperson chatbot.<br>
+* These responses are fetched by the Android app using Volley.
+* Corresponsing details of each product are retrieved from the Firebase Database.
+* User data regarding wishlist, cart and suggestions are stored in Firebase Firestore Database.
+* IBM Watson chatbot is used to make virtual salesperson chatbot.<br>
 
 # Screenshots
 
@@ -107,11 +95,8 @@ Share virtual outfit look with family/friends to seek advice<br>
 * Near to real experience<br>
 * Enables online retailers to replicate the thrills of an in-store , fulfilling experience<br>
 
+# Contributors
 
-
-	
-
-
-
-
-
+* [Sanchi Rastogi](https://github.com/sanchi0204)
+* [Isha Mudgal](https://github.com/Ishamudgalll)
+* [Saumya Bathla](https://github.com/saumyabathla)
