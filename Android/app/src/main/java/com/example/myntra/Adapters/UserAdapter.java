@@ -6,23 +6,31 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.myntra.Model.ImageInterface;
 import com.example.myntra.R;
-import com.example.myntra.Views.Friends;
 
 import java.util.ArrayList;
+
+import pl.droidsonroids.gif.GifImageView;
 
 public class UserAdapter extends RecyclerView.Adapter<UserAdapter.MyViewHolder> {
 
     ArrayList<String> friends;
     Context context;
+    ImageInterface imageInterface;
 
     public UserAdapter(ArrayList<String> friends, Context context) {
         this.friends = friends;
         this.context = context;
+    }
+
+    public UserAdapter(ImageInterface imageInterface) {
+        this.imageInterface = imageInterface;
     }
 
     @NonNull
@@ -40,8 +48,14 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.MyViewHolder> 
         holder.name.setText(name);
 
         holder.share.setOnClickListener(view -> {
-            Friends f = new Friends();
-            f.SelectImage();
+
+//            imageInterface.SelectImage();
+
+            holder.share.setVisibility(View.GONE);
+//            holder.share.setBackgroundResource(R.drawable.ic_done);
+            holder.done.setVisibility(View.VISIBLE);
+            Toast.makeText(context, "Image shared successfully!", Toast.LENGTH_SHORT).show();
+
         });
     }
 
@@ -55,12 +69,14 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.MyViewHolder> 
     public static class MyViewHolder extends RecyclerView.ViewHolder {
         TextView name;
         Button share;
+        GifImageView done;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
 
             name = itemView.findViewById(R.id.name_text);
             share = itemView.findViewById(R.id.btn_share);
+            done = itemView.findViewById(R.id.anim);
         }
     }
 }
